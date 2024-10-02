@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ContactSVG from "../assets/svg/contact.svg"
-import Contact from "./Contact.vue";
+
 </script>
 
 <template>

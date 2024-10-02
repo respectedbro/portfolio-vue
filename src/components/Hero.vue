@@ -10,14 +10,14 @@ import HeroSVG from "../assets/svg/hero.svg";
   >
     <div class="relative flex min-h-screen flex-row">
       <div
-          class="absolute bottom-0 right-0 top-0 h-full w-2/12 bg-yellow-500 lg:w-4/12"
+          class="absolute bottom-0 right-0 top-0 h-full w-2/12 bg-yellow-500 lg:w-3/12 z-40"
           data-aos="slide-left"
           data-aos-delay="1200"
       >
         <div class="flex h-full flex-col justify-center">
           <h1 class="absolute right-[-50%] top-[50%] rotate-90 space-x-4 md:right-0">
-            <span class="text-white">Tony</span>
-            <span class="text-gray-950">Xhepa</span>
+            <span class="text-white">My</span>
+            <span class="text-gray-950">Name</span>
           </h1>
         </div>
       </div>
@@ -54,6 +54,8 @@ import HeroSVG from "../assets/svg/hero.svg";
               :src="HeroSVG"
               alt="Hero"
               class="h-full rounded-xl bg-gray-950 object-cover"
+              data-aos="fade-up"
+              data-aos-delay="600"
           />
         </div>
       </div>
